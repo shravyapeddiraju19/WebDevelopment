@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.input-box {
+  width: 680px; /* Adjust the width value as needed */
+  margin: 0 1px; /* Add margins on the left and right */
+  border: 2px solid #dfdbdb;
+}
+.label-alignement {
+  padding-top: 20px;
+  margin: 10px 10px;
+  text-align: left;
+}
+.user-input {
+  width: 700px;
+  margin: 100px auto;
+  background-color: #fdfcfa;
+  border-radius: 5%;
+  box-shadow: 0 24px 20px rgba(0, 0, 0, 0.1);
+}
+.add-user-btn {
+  padding: 10px 10px;
+  background-color: #630163;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.userslist {
+  width: 680px; /* Adjust the width value as needed */
+  margin: 100px 940px; /* Add margins on the left and right */
+  box-shadow: 0 24px 20px rgba(0, 0, 0, 0.1);
+  background-color: #630163;
+  padding: 10px;
+  border-radius: 10px;
+  color: #fff;
+  display: flex;
+  gap: 5px;
+}
