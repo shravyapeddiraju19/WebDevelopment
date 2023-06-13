@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="author" content="Shravya Peddiraju" />
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: sans-serif;
+      }
+      .carousel {
+        width: 700px;
+        margin: 300px auto;
+        background-color: #0c6409a6;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 30px;
+        padding-left: 30px;
+        position: relative;
+        box-shadow: -10px 0px 10px -5px rgba(0, 0, 0, 0.5),
+          0px 10px 10px -5px rgba(0, 0, 0, 0.5),
+          10px 0px 10px -5px rgba(0, 0, 0, 0.5);
+      }
+      .maria-picture {
+        height: 200px;
+        border-radius: 4px;
+        transform: scale(1.18);
+      }
+      .testimonial {
+        color: #fff;
+        margin: 20px 0;
+        padding-right: 20px;
+        text-align: justify;
+      }
+      .testimonial-author {
+        color: #fff;
+      }
+      .author-Job {
+        color: #fff;
+      }
+      .button {
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        border-radius: 50%;
+        transform: translate(0, -50%);
+        display: flex;
+        align-items: center;
+        background-color: #fff;
+        border: none;
+        color: #008000;
+        padding: 6px;
+      }
+      .left-button {
+        top: 50%;
+        left: -15px;
+      }
+      .right-button {
+        top: 50%;
+        right: -15px;
+      }
+      .blockquote-class {
+        padding-bottom: 15px;
+      }
+      .dots {
+        left: 50%;
+        transform: (-50%, 0);
+        position: absolute;
+        display: flex;
+        gap: 5px;
+        bottom: -20px;
+      }
+      .dot {
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background-color: #008000;
+        cursor: pointer;
+      }
+      .main-container {
+        background-color: #0c6409a6;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="carousel border-class">
+      <img class="maria-picture" src="maria.jpg" alt="picture of maria" />
+      <blockquote class="blockquote-class">
+        <p class="testimonial">
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque,
+          deserunt laborum quia officiis natus voluptas quod et unde repellendus
+          perferendis cum, praesentium velit, commodi qui ipsam quasi adipisci
+          repudiandae laudantium?"
+        </p>
+        <p class="testimonial-author">Maria De Cruz</p>
+        <p class="author-Job">Senior Product Manager</p>
+      </blockquote>
+      <button class="button left-button">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="w-6 h-6"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M15.75 19.5L8.25 12l7.5-7.5"
+          />
+        </svg>
+      </button>
+      <button class="button right-button">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="w-6 h-6"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M8.25 4.5l7.5 7.5-7.5 7.5"
+          />
+        </svg>
+      </button>
+      <div class="dots">
+        <div class="dot">&nbsp;</div>
+        <div class="dot">&nbsp;</div>
+        <div class="dot">&nbsp;</div>
+        <div class="dot">&nbsp;</div>
+      </div>
+    </div>
+  </body>
+</html>
