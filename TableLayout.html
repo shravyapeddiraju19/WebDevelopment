@@ -1,0 +1,81 @@
+<!DOCTYtdE html>
+<html>
+  <head>
+    <meta name="author" content="Shravya tdeddiraju" />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: sans-serif;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+      }
+      table {
+        width: 800px;
+        margin-top: 400px;
+        border: 2px solid grey;
+        border-collapse: collapse;
+      }
+      td,
+      th {
+        /* border: 1px solid #808080; */
+        padding: 16px 24px;
+        text-align: left;
+      }
+      thead th {
+        background-color: #008000;
+        color: white;
+        width: 25%;
+      }
+
+      .odd-class {
+        background-color: #dadada;
+      }
+      .even-class {
+        background-color: #f8f8f8;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <thead class="main-header">
+        <tr>
+          <th>Chair</th>
+          <th class="laid-back">The Laid Back</th>
+          <th>The Worker Bee</th>
+          <th>The Chair 4/2</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="odd-class">
+          <th>Width</th>
+          <td>80 cm</td>
+          <td>60 cm</td>
+          <td>220 cm</td>
+        </tr>
+        <tr class="even-class">
+          <th>Height</th>
+          <td>100 cm</td>
+          <td>110 cm</td>
+          <td>90 cm</td>
+        </tr>
+        <tr class="odd-class">
+          <th>Depth</th>
+          <td>70 cm</td>
+          <td>65 cm</td>
+          <td>80 cm</td>
+        </tr>
+        <tr class="even-class">
+          <th>Weight</th>
+          <td>16 kg</td>
+          <td>22 kg</td>
+          <td>80 kg</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

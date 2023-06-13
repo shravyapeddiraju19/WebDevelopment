@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+
+<html>
+  <head> 
+    <meta name="author" content="Shravya Peddiraju">
+    <style>
+      * {
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+      }
+      body {
+        font-style: sans-serif;
+        color: #3a3a40;
+      }
+      .accordion {
+        margin: 100px auto;
+        width:700px;
+        display: flex;
+        flex-direction: column;
+        gap:30px;
+      }
+      .items {
+        background-color: #fff;
+        display: grid;
+        grid-template-columns: auto 1fr auto;
+        gap: 20px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      }
+      .item-border {
+        border-top: 4px solid green ;
+      }
+      .number, .question{
+        font-size: 24px;
+        color: green;
+        font-weight: bold;
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-bottom: 10px;
+      }
+      .icon {
+        stroke: green;
+        width: 24px;
+        padding-top: 10px;
+      }
+      .return-descrption {
+        text-align: justify;
+        color: #000;
+        font-weight: bold;
+        margin: 15px 0;
+        
+      }
+      .return-list {
+        margin-left: 20px;
+        display: flex;
+        flex-direction: column;
+        gap:5px;
+        padding-bottom: 10px;
+
+      }
+      .invisible-box {
+        grid-column: 2;
+      }
+      .non-selected {
+        color: #000;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="accordion">
+      <div class="items">
+        <p class="number non-selected">01</p>
+        <p class="question non-selected">Where are these chairs assembled?</p>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="icon non-selected"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+          />
+        </svg>
+      </div>
+
+      <div class="items item-border">
+        <p class="number">02</p>
+        <p class="question">How long do I have to return my chair?</p>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="icon"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+          />
+        </svg>
+        <div class="invisible-box">
+        <p class="return-descrption">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae nisi
+          perspiciatis repellat, culpa necessitatibus doloribus tempora aliquam
+          earum ut debitis veniam, at voluptatum eos, esse sunt repellendus
+          atque? Nesciunt, recusandae!
+        </p>
+        <ul class="return-list">
+            <li>Lorem ipsum dolor sit amet consectetur</li>
+            <li>adipisicing elit. Corporis officiis, vel</li>
+            <li>eveniet molestias nostrum ipsa dicta</li>
+            <li>veritatis repudiandae soluta iste numquam.</li></ul>
+          </ul>
+        </div>
+      </div>
+
+      <div class="items">
+        <p class="number non-selected">03</p>
+        <p class="question non-selected">Do you ship to conutries outside the US? ?</p>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="icon non-selected"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+          />
+        </svg>
+      </div>
+    </div>
+  </body>
+</html>
